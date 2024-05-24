@@ -1,2 +1,8 @@
-/main.pdf
-/main.log
+/*.pdf
+
+/*.log
+/*.aux
+/*.fdb_latexmk
+/*.fls
+/*.out
+/*.synctex.gz
