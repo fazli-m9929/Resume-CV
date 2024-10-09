@@ -152,21 +152,17 @@
   \justifying
   \begin{itemize}[leftmargin=0.1in, label={}]
     \item{
-      I am a eager to work in data Science field and currently studying to get my masters degree in electrical engineering. I also have a strong interest in image analysis, natural language processing, and computer vision.
-      I have a proven track record of success in developing and deploying innovative machine learning solutions to real-world problems.
-
-      In my role as a data scientist, I have worked on a variety of projects, including developing deep learning algorithms to improve the accuracy and efficiency of medical image analysis, extract insights from natural language data, and automate tasks.
-      I have also developed a deep understanding of the deep learning pipeline, from data collection and preparation to model training and evaluation.
-
-      I am also a skilled communicator and team player.
-      I am always eager to learn new things and share my knowledge with others.
-      I am confident that I have the skills and experience necessary to be a valuable asset to your team.
-
-      I am excited about the opportunity to contribute to your company's mission and make a positive impact.
-      I look forward to learning more about your open position and discussing how my deep learning skills and experience can be of benefit to your team.
-
-      I hope this is more to your liking. Please let me know if you have any other questions or requests.
+      I am an enthusiastic Data Engineer with a Master’s degree in Electrical Engineering, currently specializing in large language models (LLMs) at DBA Company. I have a strong interest in data science, particularly in natural language processing, image analysis, and computer vision.
+    
+      I have a proven track record of developing and deploying innovative machine learning solutions to address real-world challenges. My experience includes creating deep learning algorithms that enhance the accuracy and efficiency of various applications, such as medical image analysis and natural language data extraction.
+    
+      My expertise extends throughout the deep learning pipeline, encompassing data collection, preparation, model training, and evaluation. I pride myself on my ability to communicate complex concepts clearly and effectively, making me a skilled collaborator in team settings.
+    
+      I am committed to continuous learning and enjoy sharing knowledge with others. I am confident that my skills and experience will be valuable assets to your team.
+    
+      I am excited about the opportunity to contribute to your company's mission and make a positive impact. I look forward to discussing how my expertise in LLMs and Deep learning models can benefit your team.
     }
+    
  \end{itemize}
  \vspace{-16pt}
 
@@ -222,6 +218,10 @@
       {Mastering Natural Language Processing: A Comprehensive Guide}{1 hours}
       {Udemy - Verify at: \href{https://ude.my/UC-b94d4a05-89ae-4a20-aea3-f50529a2275f/}{https://ude.my/UC-b94d4a05-89ae-4a20-aea3-f50529a2275f/}}{2024}
 
+    \resumeSubheading
+      {Build REST APIs with Python, Django REST Framework: Web API}{10 hours}
+      {Udemy - Verify at: \href{https://www.udemy.com/certificate/UC-676611f9-1eb5-4771-8027-4bcf93b1438d/}{https://www.udemy.com/certificate/UC-676611f9-1eb5-4771-8027-4bcf93b1438d/}}{2024}
+
   \resumeSubHeadingListEnd
 \vspace{-5.5mm}
 %
@@ -229,6 +229,20 @@
 %-----------EXPERIENCE-----------------
 \section{\textbf{Experience}}
   \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Dadeh Pardazan Bonyan Ava (DBA)}{Tehran}
+      {Data Engineer}{2024 - Present}
+      \vspace{-2.0mm}
+      \resumeItemListStart
+        \item {Developed a chatbot using Retrieval-Augmented Generation (RAG) techniques, integrating multiple services to enhance user interaction.}
+        \item {Implemented services for extracting meaningful text from various input formats and developed database handlers for Milvus (vector database) and Elasticsearch (NoSQL database) to store data and its metadata in sync.}
+        \item {Designed and implemented object-oriented Python classes to manage database interactions and service functionality.}
+        \item {Utilized Celery with task workers to optimize asynchronous task processing and improve performance.}
+        \item {Managed APIs using Django with PostgreSQL as the primary database, ensuring robust data handling and retrieval.}
+        \item {Deployed databases using Docker Compose for containerized environments, facilitating streamlined development and production workflows on Ubuntu Linux.}
+    \resumeItemListEnd
+
     \resumeSubheading
       {Fater Sharif}{Tehran}
       {FPGA and VHDL intern}{2021}
@@ -245,6 +259,19 @@
 %-----------PROJECTS-----------------
 \section{\textbf{Personal Projects}}
 \resumeSubHeadingListStart
+
+    \resumeProject
+      {Eye Movement Tracking Model} % Project Name
+      {Development of a model to track eye movement using ResNet50 as the backbone} % Project Name, Location Name
+      {2024} % Event Dates
+
+      \resumeItemListStart
+        \item {The goal of this project was to track eye movement by locating the eye and its internal corner using a ResNet50 backbone as a regressor.}
+        \item {A dataset was collected by recording 10 to 20 seconds of eye movement, cropping the eye images using MediaPipe, and labeling the cropped images with pixel locations and the radius of the iris.}
+        \item {The model predicts pixel locations and the radius of the iris, allowing for the creation of a circle around the iris and a line connecting the internal corner to the center to visualize eye movement.}
+        \item {Tools and Technologies Used: PyTorch, MediaPipe, OpenCV.}
+      \resumeItemListEnd
+      \vspace{-2mm}
 
     \resumeProject
       {EyeLesionSegmentation with EfficientNetV3} %Project Name
@@ -283,26 +310,6 @@
         \item {Tools and Technologies Used: PyTorch and ResNet variants}
       \resumeItemListEnd
     \vspace{-2mm}
-    
-
-    \resumeProject
-    {Air Pollution Prediction using CNN-LSTM} %Project Name
-    {Implementation of "Air pollution prediction in smart city, deep learning approach"} %Project Name, Location Name
-    {2022} %Event Dates
-
-    \resumeItemListStart
-      \item {The goal of this project was to develop a deep learning model to predict air pollution levels in a smart city. The model was trained on a dataset of air pollution data from Beijing}
-      \item {
-        The project involved the following steps:
-        Implementing a CNN-LSTM model in PyTorch.
-        Training the model on the collected dataset.
-        Evaluating the performance of the trained model on a held-out test set.
-      }
-      \item {The trained CNN-LSTM model was able to achieve an R-squared score of 91\% for 24-hour predictions and an R-squared score of 88\% for 7-day predictions. This suggests that the model is able to accurately predict air pollution levels for both short-term and long-term horizons.}
-      \item {Tools and Technologies Used: PyTorch, CNN-LSTM}
-    \resumeItemListEnd
-  \vspace{-2mm}
-      
 
   \resumeProject
   {Model for Generating Hand Images from Noise} %Project Name
@@ -321,7 +328,7 @@
   \vspace{-2mm}
 
 \resumeSubHeadingListEnd
-\vspace{-5.5mm}
+\vspace{-8.5mm}
 
 
 
@@ -329,17 +336,43 @@
 \section{\textbf{Technical Skills and Interests}}
   \begin{itemize}[leftmargin=0.1in, label={}]
     \small{\item{
-      \textbf{Language skill}{: Advanced English} \\
-      \textbf{Programming Languages}{: Python, SQL, Embeded system C, VHDL} \\
-      \textbf{Developer Tools}{: Visual Studio Code, Git, Jupyter Notebook, Vivado, Circuit Sim applications} \\
-      \textbf{Frameworks}{: PyTorch, Open-CV, Pandas, Scikit-learn, Numpy, ...} \\
-      \textbf{Cloud/Databases}{: SQLite, MySQL} \\
-      \textbf{Soft Skills}{: Communication, Teamwork, Problem-solving, Critical thinking} \\
-      \textbf{Coursework}{: Machine learning, Deep learning, Computer vision, Natural language processing, Artificial intelligence} \\
-      \textbf{Areas of Interest}{: Medical image analysis, Natural language processing, Computer vision} \\
+      \textbf{Language Skills}{: Advanced English} \\
+      \textbf{Programming Languages}{: Python, SQL, Embedded C, VHDL} \\
+      \textbf{Developer Tools}{: Visual Studio Code, Git, Jupyter Notebook, Docker, RabbitMQ, Celery, Bash scripting, Vivado, Circuit Simulation applications} \\
+      \textbf{Frameworks and Libraries}{: PyTorch, OpenCV, Pandas, Scikit-learn, Numpy, Django, LangChain, python-docx, MediaPipe} \\
+      \textbf{Machine Learning and NLP Tools}{: Sentence Transformers, CNNs, Transformers, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG)} \\
+      \textbf{Database and Cloud}{: PostgreSQL, SQLite, MySQL, Milvus (vector database), Elasticsearch (NoSQL database), Docker Compose} \\
+      \textbf{Soft Skills}{: Communication, Teamwork, Problem-solving, Critical Thinking, Adaptability, Technical Documentation} \\
+      \textbf{Coursework}{: Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Artificial Intelligence, Data Engineering} \\
+      \textbf{Areas of Interest}{: Large Language Models (LLMs), Medical Image Analysis, Natural Language Processing, Computer Vision, Retrieval-Augmented Generation (RAG)} \\
     }}
  \end{itemize}
  \vspace{-16pt}
+
+
+%-----------PUBLICATIONS-----------------
+\section{\textbf{Publications}}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {RESHAPE: Resolution and Efficiency in Spectroscopy Harnessing Adaptive Processor - ... }{Under Review}
+    {IEEE Transactions on Instrumentation and Measurement}{Submitted}
+    \resumeItemListStart
+      \item{Introduced a configurable pulse processing system designed for high-resolution energy spectrum extraction from radiation detector signals in spectroscopy applications. The system utilizes a pulse shaper to fine-tune the shaping time constant, enhancing peak resolution and reducing Full Width at Half Maximum (FWHM).}
+      \item{A novel post-processing technique employing the Parzen window is proposed to improve the spectrum and mitigate noise effects, achieving comparable results with significantly fewer samples. Experimental validations with Cobalt-60, Cesium-137, and Europium-152 demonstrate the system's robustness and precision, highlighting its potential for advancing gamma-ray spectroscopy systems.}
+    \resumeItemListEnd
+    \vspace{-2mm}
+
+    \resumeSubheading
+      {Scaled CR-(RC)\textsuperscript{n} Digital Filter Design for Precision Pulse Processing in Spectroscopy Applications}{2024}
+      {32nd International Conference on Electrical Engineering (ICEE), IEEE}{}
+      \resumeItemListStart
+        \item{Presented a novel digital pulse shaping approach for gamma-ray and x-ray spectroscopy using CR and RC filters, targeting challenges with exponential decay inputs. The design introduces a scaling factor to ensure a consistent 1-to-1 amplitude ratio between input and output, and a post-processing step to correct undershoot issues.}
+        \item{The approach achieves clean, semi-Gaussian pulse shapes, enhancing accuracy in subsequent analysis. Experimental results with an HPGe detector validate the effectiveness of this filter design in providing accurate energy measurements essential for spectroscopic applications.}
+      \resumeItemListEnd
+      \vspace{-2mm}
+  \resumeSubHeadingListEnd
+
 
 
 
